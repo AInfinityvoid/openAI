@@ -5,8 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Infinity Void - Abhinav's AI</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
+       <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
@@ -16,11 +15,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    
+   
     <div id="app">
-      <div id="chat_container" class=""></div>
+      <h1 class="text-info">Welcome to Abhinav's AI</h1>
+      <p class="text-warning">Our mission is to ensure that artificial general intelligence benefits all of humanity.</p>
+      <div id="chat_container" class="mb-3"></div>
       <form class="cols-2 opacity-25">
+        <div class="form-group d-flex align-items-center"></div>
         <textarea
           class="form-control form-control-lg"
           name="prompt"
@@ -31,7 +36,11 @@
         <button type="submit" class="btn btn-outline-success">
           <i class="bi bi-send-fill"></i>Submit
         </button>
+      </div>
       </form>
+
+        
+      
     </div>
 
     <script type="module" src="script.js"></script>
@@ -52,5 +61,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+
+   
   </body>
 </html>
